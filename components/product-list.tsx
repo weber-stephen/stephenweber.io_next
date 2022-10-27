@@ -1,24 +1,24 @@
 const products = [
     {
-      name: 'Crypto Token DB',
-      type: 'The Largest Crypto Token Database',
-      imageUrl:
-        '/products/cryptotoken.png',
-      website: 'https://www.cryptotokendb.com'
-    },
-    {
       name: 'BitRook',
-      type: 'Data Cleaning Desktop App',
+      type: 'Data Cleaning Desktop App. Recently been acquired.',
       imageUrl:
         '/products/bitrook.jpg',
       website: 'https://bitrook.com'
     },
     {
       name: 'Voteboards',
-      type: 'Give a voice to your product\'s users',
+      type: 'Give a voice to your product\'s users. Recently been acquired.',
       imageUrl:
         '/products/voteboards.png',
       website: 'https://voteboards.com/'
+    },
+    {
+      name: 'Crypto Token DB',
+      type: 'The Largest Crypto Token Database',
+      imageUrl:
+        '/products/cryptotoken.png',
+      website: 'https://www.cryptotokendb.com'
     },
     {
       name: 'Lion Leads',

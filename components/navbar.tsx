@@ -6,10 +6,10 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const navigation = [
-  { name: 'Products', href: '/products.html' },
+  { name: 'Products', href: '/products' },
   // { name: 'Skills', href: '/skills' },
   { name: 'Work', href: 'https://www.linkedin.com/in/stephenweberprofile/' },
-  { name: 'Contact', href: '/contact.html' }
+  { name: 'Contact', href: '/contact' }
 ]
 
 export default function Banner() {
