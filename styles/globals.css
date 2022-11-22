@@ -23,3 +23,8 @@ a {
 [data-reactroot] {
   height: 100vh;
 }
+
+.bg-jacarta-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(13,16,45,var(--tw-bg-opacity));
+}

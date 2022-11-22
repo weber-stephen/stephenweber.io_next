@@ -1,7 +1,7 @@
 
 import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
-import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -12,10 +12,10 @@ const navigation = [
   { name: 'Contact', href: '/contact' }
 ]
 
-export default function Banner() {
+export default function Navbar() {
     return (
     <>
-      <div className="relative pt-6 pb-16 sm:pb-12">
+      <header className="relative pt-6 pb-16 sm:pb-12">
       <Popover>
         <div className="mx-auto px-4 sm:px-6">
           <nav className="relative flex items-center justify-between sm:h-10 md:justify-center" aria-label="Global">
@@ -24,20 +24,20 @@ export default function Banner() {
                 <Link href="/">
                   <a >
                     <span className="sr-only">Stephen Weber</span>
-                    <span className="text-blue-400 text-lg inline">Stephen Weber</span>
+                    <span className="text-white text-lg inline">Stephen Weber</span>
                   </a>
                 </Link>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button className="rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-indigo-500 hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="sr-only">Open main menu</span>
-                    <MenuIcon className="h-6 w-6" aria-hidden="true" />
+                    <Bars3Icon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>
             </div>
             <div className="hidden md:flex md:space-x-10">
               {navigation.map((item) => (
-                <a key={item.name} href={item.href} className="font-medium text-gray-200 hover:text-indigo-500">
+                <a key={item.name} href={item.href} className="font-medium text-white hover:text-indigo-500">
                   {item.name}
                 </a>
               ))}
@@ -66,7 +66,7 @@ export default function Banner() {
                 <div className="-mr-2">
                   <Popover.Button className="bg-gray-900 rounded-md p-2 inline-flex items-center justify-center text-white hover:text-indigo-400 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
                     <span className="sr-only">Close menu</span>
-                    <XIcon className="h-6 w-6" aria-hidden="true" />
+                    <XMarkIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>
                 </div>
               </div>
@@ -85,7 +85,7 @@ export default function Banner() {
           </Popover.Panel>
         </Transition>
       </Popover>
-      </div>
+      </header>
     </>
     )
 }
