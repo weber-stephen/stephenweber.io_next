@@ -14,11 +14,11 @@ const products = [
       website: 'https://voteboards.com/'
     },
     {
-      name: 'Crypto Token DB',
-      type: 'The Largest Crypto Token Database',
+      name: 'Bootstrap DApp',
+      type: 'An open source bootstrap decentralized web app',
       imageUrl:
-        '/products/cryptotoken.png',
-      website: 'https://www.cryptotokendb.com'
+        '/products/bootstrap_dapp.png',
+      website: 'https://bootstrap-dapp.vercel.app/'
     },
     {
       name: 'Lion Leads',

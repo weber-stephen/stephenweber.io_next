@@ -1,7 +1,7 @@
 export default function ContactContent() {
     return (
       <div className="">
-        <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
+        <div className="max-w-7xl lg:max-w-2xl mx-auto py-16 px-4 sm:px-6 lg:py-24 lg:px-8">
           <div className="dark:bg-jacarta-700 dark:border-jacarta-600 border-jacarta-100 rounded-[1.25rem] border bg-white p-10">
 
             <div className="mb-6 flex items-center space-x-5">
