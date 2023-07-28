@@ -56,7 +56,7 @@ const Meta = () => {
             {
               url: AppConfig.image,
               width: 1200,
-              height: 600,
+              height: 630,
               alt: 'Hey There! My name is Stephen Weber and I am a full-stack developer and engineering manager that specializes in building products.',
             }
           ]
