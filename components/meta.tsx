@@ -52,6 +52,14 @@ const Meta = () => {
           url: AppConfig.canonical,
           locale: AppConfig.locale,
           site_name: AppConfig.site_name,
+          images: [
+            {
+              url: AppConfig.image,
+              width: 1200,
+              height: 600,
+              alt: 'Hey There! My name is Stephen Weber and I am a full-stack developer and engineering manager that specializes in building products.',
+            }
+          ]
         }}
       />
     </>
