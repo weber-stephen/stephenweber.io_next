@@ -11,14 +11,14 @@ function MyApp({ Component, pageProps }: AppLayoutProps) {
   return (
     <>
       <Component {...pageProps} />
-      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-LBN817RPZP" />
+      <Script async src="https://www.googletagmanager.com/gtag/js?id=G-DGB4ZGQZ10" />
       <Script>
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
-          gtag('config', 'G-LBN817RPZP');
+          gtag('config', 'G-DGB4ZGQZ10');
         `}
       </Script>
     </>
