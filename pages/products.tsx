@@ -19,7 +19,7 @@ const Products: React.FC = () => {
                   Always trying to create value, keep my skills sharp and make the world a bit better.
                 </p>
               </div>
-            <ProductList></ProductList>
+              <ProductList></ProductList>
             </div>
           </div>
         </div>

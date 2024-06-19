@@ -4,7 +4,7 @@ export default function Hero() {
     return (
       <section>
         <div className="mx-auto px-4 mb-24">
-          <div className="grid h-full h-screen items-center gap-1 grid-cols-2">
+          <div className="grid h-screen items-center gap-1 grid-cols-2">
 
           <div
               className="col-span-2 flex h-full flex-col items-center justify-center py-10 md:col-span-1 lg:col-span-1"

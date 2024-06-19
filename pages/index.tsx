@@ -3,8 +3,6 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import Meta from '../components/meta'
 import Hero from '../components/hero'
-// import About from '../components/about'
-// import Example from '../components/blocks'
 
 const HomePage: React.FC = () => {
   return (
@@ -15,8 +13,6 @@ const HomePage: React.FC = () => {
         <Navbar  />
         <main className="relative overflow-hidden">
           <Hero />
-          {/* <Example /> */}
-          {/* <About /> */}
         </main>
         <Footer />
       </div>
