@@ -57,7 +57,7 @@ const Meta = () => {
               url: AppConfig.image,
               width: 1200,
               height: 630,
-              alt: 'Hey There! My name is Stephen Weber and I am a full-stack developer and engineering manager that specializes in building products.',
+              alt: 'I’m Stephen Weber, a Director of Engineering and Full-Stack Developer with 15+ years of experience building scalable, high-impact products in AI, Streaming, IoT, and Crypto.',
             }
           ]
         }}

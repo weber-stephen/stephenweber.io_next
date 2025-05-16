@@ -12,7 +12,7 @@ export default function Hero() {
               <div className="mt-12 mb-12 max-w-lg mx-auto text-white">
                   <h1 className="block text-white text-6xl font-extrabold">Hey there!</h1>
                 <p className="mt-12 mb-12 max-w-lg mx-auto text-3xl text-white">
-                  My name is <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-purple-500">Stephen Weber</span> and I am a <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-purple-500">full-stack developer</span> and <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-purple-500">engineering manager</span> that specializes in building products.
+                  I’m <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-purple-500">Stephen Weber</span>, a <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-purple-500">Director of Engineering</span> and <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-purple-500">Full-Stack Developer</span> with <span className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-purple-500">15+ years of experience building scalable, high-impact products</span> in AI, Streaming, IoT, and Crypto.
                 </p>
               </div>
             </div>
